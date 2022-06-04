@@ -1,1 +1,8 @@
-
+{
+	"name":"Serhii",
+	"surname":"Murashko",
+	"age":20,
+	"pets":2,
+	"salary":1000,
+	"currency":"usd"
+}
