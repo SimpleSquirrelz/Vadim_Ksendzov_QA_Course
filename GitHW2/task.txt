@@ -1,0 +1,93 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman
+git branch postman
+
+- Jmeter
+git branch jmeter
+
+- CheckLists
+git branch checklists
+
+- Bag Reports
+git branch bug-reports
+
+- SQL
+git branch sql
+
+- Charles
+git branch charles
+
+- Mobile testing
+git branch mobile-testing
+
+2. Запушить все ветки на внешний репозиторий
+git push origin postman jmeter checklists bug-reports sql charles mobile-testing
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+git checkout bug-reports
+mkdir GitHW2
+cd GitHW2
+cat > bug-report.txt
+CreatedBy:
+AssignedTo:
+Status: Open
+Type: Bug
+BugType:
+Priority:
+Severity:
+Reproducibility:
+Version:
+Enviroment:
+
+Summary:
+Description:
+  Preconditions:
+    1.
+  StepsToReproduce:
+    1.
+  ExpectedResult:
+  ActualResult:
+
+4. Запушить структуру багрепорта на внешний репозиторий
+git push origin bug-reports
+
+5. Вмержить ветку Bag Reports в Main
+git merge bug-reports
+
+6. Запушить main на внешний репозиторий.
+git push origin master
+
+7. В ветке CheckLists набросать структуру чек листа.
+git checkout checklists
+git pull bug-reports
+cat > checklist.txt
+Site: 
+#				Firefox 98	Chrome 100	Edge 98		Comment
+1.	Page			
+1.1.	Function 1
+a	Test 1			Status		Status		Status
+b	Test 2			Status		Status		Status
+c	Test 3			Status		Status		Status
+1.2.	Function 2
+a	Test 1			Status		Status		Status
+b	Test 2			Status		Status		Status
+c	Test 3			Status		Status		Status
+2.	Page
+2.1.	Function 1
+a	Test 1			Status		Status		Status
+b	Test 2			Status		Status		Status
+c	Test 3			Status		Status		Status
+2.2.	Function 2
+a	Test 1			Status		Status		Status
+b	Test 2			Status		Status		Status
+c	Test 3			Status		Status		Status
+
+8. Запушить структуру на внешний репозиторий
+git push origin checklists
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+git checkout master
+git pull
