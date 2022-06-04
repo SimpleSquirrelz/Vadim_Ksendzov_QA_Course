@@ -1,0 +1,115 @@
+ 1. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/SimpleSquirrelz/Vadim_Ksendzov_QA_Course.git
+
+ 2. Внутри локального XML создать файл “new.xml”.
+cat > new.xml
+
+ 3. Добавить файл под гит.
+git add .
+
+ 4. Закоммитить файл.
+git commit -m "Added blank xml file"
+
+ 5. Отправить файл на внешний GitHub репозиторий.
+git push -u origin git/hw1/xml
+
+ 6. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<new>
+	<name>Serhii</name>
+	<surname>Murashko</surname>
+	<age>27</age>
+	<pets>2</pets>
+	<salary>1000</salary>
+	<currency>usd</currency>
+</new>
+
+ 7. Отправить изменения на внешний репозиторий.
+git add .
+git commit -m "Added personal info to new.xml"
+git push
+
+ 8. Создать файл preferences.xml
+cat > preferences.xml
+
+ 9. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+	<movie>Kimi no Na wa</movie>
+	<series>Balck Mirror</series>
+	<food>Sushi</food>
+	<seasons>
+		<season>Autumn</season>
+		<season>Winter</season>
+	</seasons>
+	<country>Estonia</country>
+</preferences>
+
+ 10. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<theory>Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</theory>
+	<clientServerArchitecture>Что такое клиент-серверная архитектура.</clientServerArchitecture>
+	<http>HTTP Методы запросов на сервер.</http>
+	<httpCodes>Коды ответов HTTP сервера.</httpCodes>
+	<httpRequestResponse>Структуры HTTP запросов и ответов.</httpRequestResponse>
+	<jsonxml>Что такое JSON, XML. Их структура.</jsonxml>
+	<postman>Тестирование API через Postman (JS, автотесты API).</postman>
+	<logs>Снятие и чтение логов c внешнего сервера.</logs>
+	<sniffing>Снифинг http web трафика через Charles и Fiddler.</sniffing>
+	<devtools>Dev Tools веб браузеров (Google Chrome, FireFox).</devtools>
+	<vpn>VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)</vpn>
+	<mobileTesting>Мобильное тестирование.</mobileTesting>
+	<iOSAndroindGuidelines>Особенность iOS, Android, гайдлайны.</iOSAndroindGuidelines>
+	<xcode>Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)</xcode>
+	<androidStudio>Сборка Android приложений на Android Studio.</androidStudio>
+	<adb>ADB (управление андройд девайсами).</adb>
+	<vpnMobile>Настройка прокси и vpn на iOS и Android.</vpnMobile>
+	<sniffingMobile>Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</sniffingMobile>
+	<terminal>Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)</terminal>
+	<bashScripting>Основы bash скриптинг, автоматизация рутинных задач на сервере.</bashScripting>
+	<remoteServers>Доступ к удалённым серверам.</remoteServers>
+	<sql>Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</sql>
+	<postgres>База данных Postgres (установка, настройка и использование).</postgres>
+	<redis>Нереляционная база данных Redis (установка, настройка и использование).</redis>
+	<jmeter>Нагрузочное тестирование в Jmeter.</jmeter>
+	<scrum>Методология разработки Scrum.</scrum>
+	<python>Python. (Изучение основ. Создание клиент серверного приложения)</python>
+</skills>
+
+ 11. Сделать коммит в одну строку.
+git commit -am "Added preferences and skills"
+
+ 12. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 13. На веб интерфейсе создать файл bug_report.xml.
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 15. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+<?xml version="1.0" encoding="UTF-8"?>
+<bugreport>
+	<createdBy></createdBy>
+    	<assignedTo></assignedTo>
+    	<summary></summary>
+    	<type>Bug</type>
+    	<priority></priority>
+    	<severity></severity>
+    	<reproducibility></reproducibility>
+    	<version></version>
+    	<enviroment></enviroment>
+    	<description>
+		<preconditions>
+			<precondition></precondition>  
+		</preconditions>
+		<stepsToReproduce>
+			<step></step>
+		</stepsToReproduce>
+		<expectedResult></expectedResult>
+		<actualResult></actualResult>
+	</description>
+    	<status>Open</status>
+    	<bugType></bugType>
+</bugreport>
+ 17. Синхронизировать внешний и локальный репозиторий XML
+git pull

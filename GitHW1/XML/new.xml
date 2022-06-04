@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<new>
+	<name>Serhii</name>
+	<surname>Murashko</surname>
+	<age>27</age>
+	<pets>2</pets>
+	<salary>1000</salary>
+	<currency>usd</currency>
+</new>

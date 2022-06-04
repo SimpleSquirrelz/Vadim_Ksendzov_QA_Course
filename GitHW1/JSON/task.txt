@@ -23,7 +23,8 @@ git push -u origin git/hw1/json
 	"currency":"usd"
 } 
  7. Отправить изменения на внешний репозиторий.
-git commit -am "Added personal info to new.json"
+git add .
+git commit -m "Added personal info to new.json"
 git push
 
  8. Создать файл preferences.json
@@ -76,7 +77,8 @@ cat > skills.json
 }
 
  11. Отправить сразу 2 файла на внешний репозиторий.
-git commit -am "Added preferences and skills"
+git add .
+git commit -m "Added preferences and skills"
 git push
 
  12. На веб интерфейсе создать файл bug_report.json.
@@ -100,8 +102,8 @@ git push
       "stepsToReproduce":[
         "",
       ],
-    "expectedResult": "Press the button Menu and see categories of products",
-    "actualResult": "Press the button Menu and see eror"
+    "expectedResult": "",
+    "actualResult": ""
     },
     "status": "Open",
     "bugType": ""

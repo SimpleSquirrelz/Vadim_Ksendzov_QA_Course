@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugreport>
+	<createdBy></createdBy>
+    	<assignedTo></assignedTo>
+    	<summary></summary>
+    	<type>Bug</type>
+    	<priority></priority>
+    	<severity></severity>
+    	<reproducibility></reproducibility>
+    	<version></version>
+    	<enviroment></enviroment>
+    	<description>
+		<preconditions>
+			<precondition></precondition>  
+		</preconditions>
+		<stepsToReproduce>
+			<step></step>
+		</stepsToReproduce>
+		<expectedResult></expectedResult>
+		<actualResult></actualResult>
+	</description>
+    	<status>Open</status>
+    	<bugType></bugType>
+</bugreport>
