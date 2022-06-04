@@ -1,0 +1,5 @@
+Movie: Kimi no Na wa
+Series: Balck Mirror
+Food: Sushi
+Seasons: Autumn, Winter
+Country: Estonia
