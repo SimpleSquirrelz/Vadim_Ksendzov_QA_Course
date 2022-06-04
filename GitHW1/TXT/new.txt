@@ -1,0 +1,5 @@
+Name: Serhii
+Surname: Murashko
+Age: 20
+Pets: 2
+Salary: 1000$

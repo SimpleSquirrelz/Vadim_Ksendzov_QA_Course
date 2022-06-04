@@ -1,0 +1,23 @@
+{
+    "createdBy":"",
+    "assignedTo":"",
+    "summary": "",
+    "type": "Bug",
+    "priority": "",
+    "severity": "",
+    "reproducibility":"",
+    "version": null,
+    "enviroment": "",
+    "description": {
+      "preconditions":[
+        ""  
+      ],
+      "stepsToReproduce":[
+        "",
+      ],
+    "expectedResult": "",
+    "actualResult": ""
+    },
+    "status": "Open",
+    "bugType": ""
+}

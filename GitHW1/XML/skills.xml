@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<theory>Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.</theory>
+	<clientServerArchitecture>Что такое клиент-серверная архитектура.</clientServerArchitecture>
+	<http>HTTP Методы запросов на сервер.</http>
+	<httpCodes>Коды ответов HTTP сервера.</httpCodes>
+	<httpRequestResponse>Структуры HTTP запросов и ответов.</httpRequestResponse>
+	<jsonxml>Что такое JSON, XML. Их структура.</>
+	<postman>Тестирование API через Postman (JS, автотесты API).</postman>
+	<logs>Снятие и чтение логов c внешнего сервера.</logs>
+	<sniffing>Снифинг http web трафика через Charles и Fiddler.</sniffing>
+	<devtools>Dev Tools веб браузеров (Google Chrome, FireFox).</devtools>
+	<vpn>VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)</vpn>
+	<mobileTesting>Мобильное тестирование.</mobileTesting>
+	<iOSAndroindGuidelines>Особенность iOS, Android, гайдлайны.</iOSAndroindGuidelines>
+	<xcode>Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)</xcode>
+	<androidStudio>Сборка Android приложений на Android Studio.</androidStudio>
+	<adb>ADB (управление андройд девайсами).</adb>
+	<vpnMobile>Настройка прокси и vpn на iOS и Android.</vpnMobile>
+	<sniffingMobile>Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.</sniffingMobile>
+	<terminal>Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)</terminal>
+	<bashScripting>Основы bash скриптинг, автоматизация рутинных задач на сервере.</bashScripting>
+	<remoteServers>Доступ к удалённым серверам.</remoteServers>
+	<sql>Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</sql>
+	<postgres>База данных Postgres (установка, настройка и использование).</postgres>
+	<redis>Нереляционная база данных Redis (установка, настройка и использование).</redis>
+	<jmeter>Нагрузочное тестирование в Jmeter.</jmeter>
+	<scrum>Методология разработки Scrum.</scrum>
+	<python>Python. (Изучение основ. Создание клиент серверного приложения)</python>
+</skills>
