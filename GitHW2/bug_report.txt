@@ -1,0 +1,19 @@
+CreatedBy:
+AssignedTo:
+Status: Open
+Type: Bug
+BugType:
+Priority:
+Severity:
+Reproducibility:
+Version:
+Enviroment:
+
+Summary:
+Description:
+  Preconditions:
+    1.
+  StepsToReproduce:
+    1.
+  ExpectedResult:
+  ActualResult:
