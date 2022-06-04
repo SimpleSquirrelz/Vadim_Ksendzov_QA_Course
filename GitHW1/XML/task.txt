@@ -53,7 +53,7 @@ cat > preferences.xml
 	<http>HTTP Методы запросов на сервер.</http>
 	<httpCodes>Коды ответов HTTP сервера.</httpCodes>
 	<httpRequestResponse>Структуры HTTP запросов и ответов.</httpRequestResponse>
-	<jsonxml>Что такое JSON, XML. Их структура.</>
+	<jsonxml>Что такое JSON, XML. Их структура.</jsonxml>
 	<postman>Тестирование API через Postman (JS, автотесты API).</postman>
 	<logs>Снятие и чтение логов c внешнего сервера.</logs>
 	<sniffing>Снифинг http web трафика через Charles и Fiddler.</sniffing>
