@@ -76,8 +76,35 @@ cat > skills.json
 }
 
  11. Отправить сразу 2 файла на внешний репозиторий.
+git commit -am "Added preferences and skills"
+git push
+
  12. На веб интерфейсе создать файл bug_report.json.
  13. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  14. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+{
+    "createdBy":"",
+    "assignedTo":"",
+    "summary": "",
+    "type": "Bug",
+    "priority": "",
+    "severity": "",
+    "reproducibility":"",
+    "version": null,
+    "enviroment": "",
+    "description": {
+      "preconditions":[
+        ""  
+      ],
+      "stepsToReproduce":[
+        "",
+      ],
+    "expectedResult": "Press the button Menu and see categories of products",
+    "actualResult": "Press the button Menu and see eror"
+    },
+    "status": "Open",
+    "bugType": ""
+}
  16. Синхронизировать внешний и локальный репозиторий JSON
+git pull
