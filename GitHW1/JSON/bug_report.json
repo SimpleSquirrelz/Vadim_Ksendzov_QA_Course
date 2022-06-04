@@ -1,0 +1,23 @@
+{
+    "createdBy":"",
+    "assignedTo":"",
+    "summary": "",
+    "type": "Bug",
+    "priority": "",
+    "severity": "",
+    "reproducibility":"",
+    "version": null,
+    "enviroment": "",
+    "description": {
+      "preconditions":[
+        ""  
+      ],
+      "stepsToReproduce":[
+        "",
+      ],
+    "expectedResult": "Press the button Menu and see categories of products",
+    "actualResult": "Press the button Menu and see eror"
+    },
+    "status": "Open",
+    "bugType": ""
+}
