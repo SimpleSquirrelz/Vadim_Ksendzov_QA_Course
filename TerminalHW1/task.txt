@@ -1,0 +1,84 @@
+1) Посмотреть где я
+pwd
+
+2) Создать папку
+mkdir folder1
+
+3) Зайти в папку
+cd folder1
+
+4) Создать 3 папки
+mkdir folder1_1 folder1_2 folder1_3
+
+5) Зайти в любоую папку
+cd folder1_1
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch txt1.txt txt2.txt txt3.txt json1.json json2.json
+
+7) Создать 3 папки
+mkdir folder1_1_1 folder1_1_2 folder1_1_3
+
+8. Вывести список содержимого папки
+ls 
+ls -a
+ls -l
+ls -al
+
+9) + Открыть любой txt файл
+cat file.txt
+
+10) + написать туда что-нибудь, любой текст.
+cat >> txt1.txt
+txt1 file content 1
+txt1 file content 2
+
+11) + сохранить и выйти.
+Ctrl+C
+
+9,10,11)
+vim text2.txt
+Нажать на "i"
+Отредактировать документ
+Нажать на esc
+:wq
+
+12) Выйти из папки на уровень выше
+cd ../
+
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv folder1_1/txt1.txt folder1_1/txt2.txt folder1_1/folder1_1_2/
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp folder1_1/folder1_1_2/txt1.txt folder1_1/folder1_1_2/txt2.txt folder1_1/
+
+15) Найти файл по имени
+find * -name "filename*"
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+tail -f txt1.txt txt2.txt
+
+17) вывести несколько первых строк из текстового файла
+head -n 3 txt2.txt
+
+18) вывести несколько последних строк из текстового файла
+tail -n 3 txt2.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less text2.txt
+
+20) вывести дату и время
+date '+%d.%m, %H:%M'
+
+21) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5005/get_method?name=Simple\&age=20
+
+22) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+cd folder
+mkdir folder1_1 folder1_2 folder1_3
+cd folder1_1
+touch txt1.txt txt2.txt txt3.txt json1.json json2.json
+mkdir folder1_1_1 folder1_1_2 folder1_1_3
+ls -l
+mv txt1.txt txt2.txt ../folder1_2
